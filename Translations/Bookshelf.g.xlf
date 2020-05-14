@@ -28,6 +28,41 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field Page Count - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 2757394829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 1656136372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 3464043334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>created_at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field created_at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 1814464443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 1405163793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>state</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651057848 - Field 372531027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>url</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ALIssue - Field html_url - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2114396011 - NamedType 1371899623" size-unit="char" translate="yes" xml:space="preserve">
           <source>Celebrate!</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -43,10 +78,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Book List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3565700325 - Action 3513292118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run .Net Wrapper</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book List - Action RunWrapper - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 482740450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AL Issues</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALIssueList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 482740450 - Action 2026913255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALIssueList - Action Refresh - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2135431096 - Field 3491185243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Favorite Book No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerBookExt - Field Dyn Favorite Book No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1686041912 - Action 4263668849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4081634891">
+          <source>Get Exchange Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CurrencyListExt - Action GetExchangeRate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Profile 1886450737 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>My Profile</source>

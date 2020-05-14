@@ -1,11 +1,10 @@
-page 50100 "Book List"
+page 50102 "ALIssueList"
 {
-    Caption = 'Books';
+    Caption = 'AL Issues';
     PageType = List;
     UsageCategory = Lists;
     ApplicationArea = All;
-    SourceTable = Book;
-    CardPageId = 50101;
+    SourceTable = "AlIssue";
 
     layout
     {
@@ -13,24 +12,21 @@ page 50100 "Book List"
         {
             repeater(Group)
             {
-                field("No."; "No.")
+                field(number; number)
                 {
                     ApplicationArea = All;
                 }
-                field(Title; Title)
+                field(title; title)
                 {
                     ApplicationArea = All;
                 }
-                field(Author; Author)
-                {
-                    ApplicationArea = All;
-                }
-                field("Page Count"; "Page Count")
+                field(crated_at; created_at)
                 {
                     ApplicationArea = All;
                 }
             }
         }
+
         area(Factboxes)
         {
 
@@ -41,12 +37,19 @@ page 50100 "Book List"
     {
         area(Processing)
         {
-            action(RunWrapper)
+            action(Refresh)
             {
-                Caption = 'Run .Net Wrapper';
+                Image = Absence;
+                Caption = 'Refresh';
                 ApplicationArea = All;
-                Image = BOMRegisters;
-                RunObject = codeunit DotNetWrappers;
+
+                trigger OnAction();
+                var
+                    RefreshALIssues: Codeunit RefreshALIssues;
+                begin
+                    RefreshALIssues.Run();
+                    CurrPage.Update();
+                end;
             }
         }
     }
