@@ -26,8 +26,8 @@ jobs:
     - name: Run a one-line script
       run: |
         get-command -Module navcontainerhelper
-        install-module navcontainerhelper -force
-        Write-NavContainerHelperWelcomeText
+        install-module navconNew-NavContainer 'TEST' -accept_eula -accept_outdated -imageName "mcr.microsoft.com/businesscentral/onprem:na" -includeAL -updateHosts -auth NavUserPasswordtainerhelper -force
+        
         
 
     # Runs a set of commands using the runners shell
